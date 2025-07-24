@@ -27,3 +27,4 @@ return new class extends Migration
         Schema::dropIfExists('enseignants');
     }
 };
+// [Fatou Fall] Commit Enseignant - ajout commentaire pour commit

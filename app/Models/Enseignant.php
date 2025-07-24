@@ -37,3 +37,4 @@ class Enseignant extends Model
         return $this->hasMany(Affectation::class);
     }
 }
+// [Fatou Fall] Commit Enseignant - ajout commentaire pour commit

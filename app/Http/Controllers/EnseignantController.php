@@ -66,3 +66,4 @@ public function show($id)
         return redirect()->route('enseignants.index')->with('success', 'Enseignant supprimé.');
     }
 }
+// [Fatou Fall] Commit Enseignant - ajout commentaire pour commit
