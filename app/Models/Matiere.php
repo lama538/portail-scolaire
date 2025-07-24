@@ -41,3 +41,4 @@ class Matiere extends Model
         return $this->hasMany(Affectation::class);
     }
 }
+// 🔍 Modèle Matiere : représente une matière dans le système (nom, coefficient, etc.)

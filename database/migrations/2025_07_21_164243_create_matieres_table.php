@@ -29,3 +29,4 @@ return new class extends Migration
         Schema::dropIfExists('matieres');
     }
 };
+// 🔍 Modèle Matiere : représente une matière dans le système (nom, coefficient, etc.)

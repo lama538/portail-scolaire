@@ -74,3 +74,4 @@ class MatiereController extends Controller
         return redirect()->route('matieres.index')->with('success', 'Matière supprimée.');
     }
 }
+// 🔍 Modèle Matiere : représente une matière dans le système (nom, coefficient, etc.)
