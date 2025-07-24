@@ -59,7 +59,7 @@ Route::resource('matieres', MatiereController::class)->middleware('auth');
 
 Route::resource('affectations', AffectationController::class);
 
-
+// TODO: vérification Eleve
 
 
 

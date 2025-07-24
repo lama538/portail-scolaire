@@ -30,3 +30,4 @@ return new class extends Migration
         Schema::dropIfExists('eleves');
     }
 };
+// TODO: vérification Eleve

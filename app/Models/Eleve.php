@@ -27,4 +27,5 @@ class Eleve extends Model
         return $this->hasMany(Bulletin::class);
     }
 }
+// TODO: vérification Eleve
 
