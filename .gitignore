@@ -1,11 +1,31 @@
-vendor/
-node_modules/
+# Dependencies
+/vendor
+/node_modules
+
+# Environment files
 .env
-.phpunit.result.cache
+.env.testing
+
+# Laravel storage & logs
+/public/storage
 /storage/*.key
 /storage/app/public
 /storage/framework/*
 !/storage/framework/.gitignore
 /storage/logs
-.idea
+
+# IDE and system files
+/.idea
+/.vscode
 .DS_Store
+
+# PHPUnit cache
+.phpunit.result.cache
+
+# Laravel Homestead
+Homestead.json
+Homestead.yaml
+
+# Debug logs
+npm-debug.log
+yarn-error.log
